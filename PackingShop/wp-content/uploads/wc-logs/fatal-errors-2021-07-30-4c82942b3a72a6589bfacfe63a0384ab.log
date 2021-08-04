@@ -1,0 +1,36 @@
+2021-07-30T06:06:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\PackingShop\wp-includes\wp-db.php on line 2056
+
+2021-07-30T12:43:43+00:00 CRITICAL Uncaught TypeError: error_reporting(): Argument #1 ($error_level) must be of type ?int, string given in C:\xampp\htdocs\PackingShop\wp-content\plugins\wp-megamenu\classes\class.wp-megamenu-widgets.php:120
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\wp-megamenu\classes\class.wp-megamenu-widgets.php(120): error_reporting('E_ALL & ~E_NOTI...')
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\wp-megamenu\classes\class.wp-megamenu-base.php(388): wp_megamenu_widgets->show_widget('pages-2')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): wp_megamenu_base->add_widgets_to_menu(Array, Object(stdClass))
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\nav-menu-template.php(226): apply_filters('wp_nav_menu_obj...', Array, Object(stdClass))
+#5 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\partials\header\nav.php(162): wp_nav_menu(Object(stdClass))
+#6 C:\xampp\htdocs\PackingShop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#9 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\inc\header-content.php(127): get_template_part('partials/header...')
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): oceanwp_header_navigation('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\partials\header\layout.php(100): do_action('ocean_header_in...')
+#14 C:\xampp\htdocs\PackingShop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\PackingShop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#16 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#17 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\inc\helpers.php(1002): get_template_part('partials/header...')
+#18 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): oceanwp_header_template('')
+#19 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#20 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#21 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\header.php(34): do_action('ocean_header')
+#22 C:\xampp\htdocs\PackingShop\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\PackingShop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#24 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#25 C:\xampp\htdocs\PackingShop\wp-content\themes\oceanwp\page.php(12): get_header()
+#26 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#27 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#28 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#29 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\wp-megamenu\classes\class.wp-megamenu-widgets.php on line 120
+
