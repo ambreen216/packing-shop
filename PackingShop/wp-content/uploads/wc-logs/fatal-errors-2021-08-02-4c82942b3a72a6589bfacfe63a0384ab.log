@@ -1,0 +1,78 @@
+2021-08-02T07:11:59+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('Login_Signup.zi...', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+
+2021-08-02T07:13:28+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('Login_Signup.zi...', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+
+2021-08-02T07:38:41+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('Login_Signup.zi...', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+
+2021-08-02T07:51:21+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('signup-form-19....', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+
+2021-08-02T08:16:30+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('signup-form-19....', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+
+2021-08-02T11:04:08+00:00 CRITICAL Uncaught TypeError: is_dir(): Argument #1 ($filename) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php:348
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php(348): is_dir(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\sources\local.php(825): Elementor\Core\Files\Uploads_Manager->remove_file_or_dir(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(446): Elementor\TemplateLibrary\Source_Local->import_template('signup-form-19....', 'C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\includes\template-library\manager.php(607): Elementor\TemplateLibrary\Manager->direct_import_template(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): Elementor\TemplateLibrary\Manager->handle_direct_actions('')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\elementor\core\files\uploads-manager.php on line 348
+

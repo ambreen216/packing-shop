@@ -1,0 +1,35 @@
+.wpac-custom-form ul.tml-links {
+	display: none;
+}
+.wpac-custom-login .elementor-section-wrap {
+	text-align: center;
+}
+.wpac-custom-form .tml .tml-field {
+	border: none;
+	border-bottom: 3px solid #dddddd;
+	background: transparent;
+	font-size: 20px;
+	text-align: center;
+}
+.wpac-custom-form .tml .tml-field:focus {
+	outline: none !important;
+	border-color: #280b54 !important;
+}
+.wpac-custom-login  .elementor-tabs-wrapper {
+		text-align: center;
+}
+.wpac-custom-login .elementor-tab-desktop-title {
+	display: inline-block !important;
+	border-radius: 5px 5px 0 0;
+}
+.wpac-custom-form .tml-button {
+	border-radius: 0;
+	padding: 15px 40px;
+	min-width: 250px;
+	background: #280b54;
+	font-size: 18px;
+	transition: 0.5s all;
+}
+.wpac-custom-form .tml-button:hover {
+	background: #D70E64;
+}
