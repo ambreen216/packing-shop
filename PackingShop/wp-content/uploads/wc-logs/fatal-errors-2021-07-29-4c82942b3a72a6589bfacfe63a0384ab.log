@@ -1,0 +1,747 @@
+2021-07-29T05:08:08+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:08:08+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:08:08+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:09:00+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:09:02+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:12:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:12:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:12:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:12:29+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:20:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:20:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:20:24+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:20:28+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:20:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_count() on null in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php:26
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php(38): royal_shop_cart_total_item()
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_menu_cart_view('')
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\header-function.php(1186): do_action('royal_shop_cart...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): royal_shop_mobile_navbar('')
+#6 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\PackingShop\wp-includes\general-template.php(3031): do_action('wp_footer')
+#9 C:\xampp\htdocs\PackingShop\wp-includes\blocks\legacy-widget.php(123): wp_footer()
+#10 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): handle_legacy_widget_preview_iframe('')
+#11 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#12 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(175): do_action('admin_init')
+#14 C:\xampp\htdocs\PackingShop\wp-admin\widgets.php(10): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\themes\royal-shop\inc\woocommerce\woo-function.php on line 26
+
+2021-07-29T05:24:23+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-29T05:24:33+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-29T05:24:39+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-29T05:29:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php on line 303
+
+2021-07-29T05:35:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php on line 303
+
+2021-07-29T05:36:27+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php on line 303
+
+2021-07-29T05:40:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php on line 303
+
+2021-07-29T05:41:30+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, non-static method M_Shop_Admin_Settings::m_shop_activeplugin() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_m_shop_...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php on line 303
+
+2021-07-29T06:04:48+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
+2021-07-29T06:12:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\PackingShop\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-07-29T06:13:06+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
+2021-07-29T06:15:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\PackingShop\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-07-29T06:34:48+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:34:56+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:35:03+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:35:31+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:35:47+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:35:59+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:02+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:10+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:20+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:24+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\theme-install.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:28+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\update.php(16): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:29+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:31+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:41+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\theme-install.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:42+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:44+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:45+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:45+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:45+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:45+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:51+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:54+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:36:58+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:37:17+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:37:21+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:37:57+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:38:02+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:39:10+00:00 CRITICAL Uncaught Error: Call to undefined method OCDI\Helpers::apply_filters() in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php:585
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): OCDI\OneClickDemoImport->setup_plugin_with_filter_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-settings.php(556): do_action('after_setup_the...')
+#4 C:\xampp\htdocs\PackingShop\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\PackingShop\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\one-click-demo-import\inc\OneClickDemoImport.php on line 585
+
+2021-07-29T06:45:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\PackingShop\wp-includes\Requests\Transport\cURL.php on line 484
+
+2021-07-29T07:02:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\PackingShop\wp-includes\Requests\Transport\cURL.php on line 484
+
