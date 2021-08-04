@@ -1,0 +1,88 @@
+2021-07-28T12:07:20+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-28T12:08:19+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-28T12:08:47+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-28T12:08:50+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, WP_Error given in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php:4315
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\formatting.php(4315): ltrim(Object(WP_Error))
+#1 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\inc\widgets\class-estore-woocommerce-product-grid.php(166): esc_url(Object(WP_Error))
+#2 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-widget.php(393): estore_woocommerce_product_grid->widget(Array, Array)
+#3 C:\xampp\htdocs\PackingShop\wp-includes\widgets.php(831): WP_Widget->display_callback(Array, Array)
+#4 C:\xampp\htdocs\PackingShop\wp-content\themes\estore\page-templates\template-estore-home.php(38): dynamic_sidebar('estore_sidebar_...')
+#5 C:\xampp\htdocs\PackingShop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\PackingShop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\PackingShop\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-includes\formatting.php on line 4315
+
+2021-07-28T12:16:53+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
+2021-07-28T12:20:30+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
+2021-07-28T12:21:38+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
+2021-07-28T12:27:21+00:00 CRITICAL Uncaught Error: Non-static method ADI_Demos::required_plugins() cannot be called statically in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php:257
+Stack trace:
+#0 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(303): ADI_Demos::ajax_demo_data('')
+#1 C:\xampp\htdocs\PackingShop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\PackingShop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\PackingShop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_adi_aja...')
+#4 {main}
+  thrown in C:\xampp\htdocs\PackingShop\wp-content\plugins\access-demo-importer\inc\demo-functions.php on line 257
+
